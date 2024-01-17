@@ -1,0 +1,38 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    width: 100vw;
+    display: flex;
+    align-items: center;
+    height: 100vh;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.container{
+    background-color: azure;
+    padding: 20px;
+    border-radius: 20px;
+    width: 60vw;
+    justify-self:center;
+    align-items: center;
+    flex-direction: column;
+    display: flex;
+    max-width: 500px;
+}
+.container *:not(.register_button){
+    padding: 20px;
+     width: 100%;
+}
+.register_button{
+    display: flex;
+    color: white;
+    padding: 20px;
+    background-color: black;
+}
+.logining_form{
+    display: none;
+}
