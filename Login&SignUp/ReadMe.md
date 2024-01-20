@@ -22,3 +22,21 @@ INSERT INTO login_cred (Name, Email, Password, Mobile) VALUES (?, ?, ?, ?);
 In [Home_page](https://shorturl.at/awDN1)
 
 In this page where it displays "welcome message with <their "name"> and a anchor tag for logging out the session by navigating to [logout_page](https://shorturl.at/hotA4)
+
+
+## in logout page
+
+checking for the username with the session if there **unset** the session
+
+
+
+```sql
+if (isset($_SESSION['username'])) {
+    // Unset the specific session variable
+    unset($_SESSION['username']);
+}
+
+```
+
+
+
