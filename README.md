@@ -1,3 +1,3 @@
-# Php Login&Signuppage
+# Php Login&Signup_page
 ___
-while in  [Home_page](https://shorturl.at/elIKO)
+while in  [Index_page](https://shorturl.at/DJ579) in this I'm checking whether user is old or new through checking session if session i already there i directly direct to 
