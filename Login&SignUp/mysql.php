@@ -1,7 +1,7 @@
 <?php 
 $hostname="localhost";
-$dbuser="root";
-$dbpassword="7399Sakthi@@@@";
+$dbuser="YOUR_USERNAME";
+$dbpassword="";
 $dbname="sample_login";
 $conn=mysqli_connect($hostname,$dbuser,$dbpassword,$dbname);
 if(!$conn){
