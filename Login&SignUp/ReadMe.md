@@ -4,8 +4,7 @@ ___
 ## index_page
 
 while in  [Index_page](https://shorturl.at/DJ579) in this I'm checking whether user is old or new through checking session if session i already there i directly direct to Home_page 
-
-### if session is not there
+** if session is not there**
 
 I am displaying the form for login and loggout seperatly with input fields
 
