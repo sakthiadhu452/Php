@@ -16,7 +16,7 @@ inserting the values to the database with query given below
 ```sql
 INSERT INTO login_cred (Name, Email, Password, Mobile) VALUES (?, ?, ?, ?);
 
-```sql
+```
 
 ## home page 
 
